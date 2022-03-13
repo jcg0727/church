@@ -43,7 +43,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="/">행복드림교회</a></h1>
+      <h1 class="logo me-auto"><a href="/main" style="color: black; font-size: 30px; font-weight: bold;">행복드림교회</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -58,26 +58,25 @@
 
           <li class="dropdown"><a href="#"><span>교회안내</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">교회소개</a></li>
+              <li><a href="#">인사말</a></li>
+              <li><a href="#">섬기는 사람들</a></li>
+              <li><a href="#">오시는길</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>교회소식</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">예배안내</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">교회주보</a></li>
+              <li><a href="#">자료실</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>예배와말씀</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">주일 설교 영상</a></li>
+              <li><a href="#">집회 행사</a></li>
+              <li><a href="#">실시간 예배</a></li>
             </ul>
           </li>
         </ul>
@@ -92,7 +91,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>2022,<br>하나님의말씀</h1>
+      <h1>2022<br>말씀구절 or 교회표어</h1>
 <!--       <h2>We are team of talented designers making websites with Bootstrap</h2> -->
 <!--       <a href="courses.html" class="btn-get-started">Get Started</a> -->
     </div>
@@ -461,46 +460,19 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>교회위치</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              34973 <br>
+              대전광역시 중구 계백로 1592 B1<br><br>
+              <strong>Fax:</strong> 000-0000-0000<br>
+              <strong>Tel:</strong> 000-0000-0000<br>
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
+          <div class="col-lg-8 col-md-6 footer-links">
+	          <div id="map" style="width: 850px; height: 250px;"> </div>
+         </div>
 
         </div>
       </div>
@@ -510,22 +482,15 @@
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
+          &copy; Copyright <strong><span>행복드림교회</span></strong>. All Rights Reserved.
+     <!--    </div>
+        <div class="credits"> -->
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div> 
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -533,6 +498,26 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  
+  <!-- kakao map -->
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bad625fa1db195394d841cb21b3a322d"></script>	
+  <script>
+  var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+  var options = { //지도를 생성할 때 필요한 기본 옵션
+  	center: new kakao.maps.LatLng(36.317986, 127.397163), //지도의 중심좌표.
+  	level: 3 //지도의 레벨(확대, 축소 정도)
+  };
+  	var map = new kakao.maps.Map(container, options); 
+  	var marker = new kakao.maps.Marker({ 
+  	    // 지도 중심좌표에 마커를 생성합니다 
+  	    position: map.getCenter() 
+  	}); 
+  	// 지도에 마커를 표시합니다
+  	marker.setMap(map);
+
+ 
+  </script>
+  
   <!-- Vendor JS Files -->
   <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/purecounter/purecounter.js"></script>
   <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/aos/aos.js"></script>
