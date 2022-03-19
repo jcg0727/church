@@ -14,5 +14,6 @@ public class MainController {
 	public String main() {
 		String url = "/common/main";
 		return url;
+		
 	}
 }
