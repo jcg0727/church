@@ -10,25 +10,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/img/favicon.png" rel="icon">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="<%=request.getContextPath() %>/resources/Mentor/assets/css/style.css" rel="stylesheet">
-
+  <%@include file="../include/style.jsp" %>
   <!-- =======================================================
   * Template Name: Mentor - v4.7.0
   * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
@@ -106,12 +88,12 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Students</p>
+          	<img src="<%=request.getContextPath() %>/resources/img/clock.jpeg" style="width: 100px; height: 100px; border-radius: 50%">
+            <p>예배시간</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+                    	<img src="<%=request.getContextPath() %>/resources/img/alarm-clock.png" style="width: 100px; height: 100px;">
             <p>Courses</p>
           </div>
 
@@ -520,17 +502,7 @@
 
  
   </script>
-  
-  <!-- Vendor JS Files -->
-  <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/purecounter/purecounter.js"></script>
-  <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/aos/aos.js"></script>
-  <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="<%=request.getContextPath() %>/resources/Mentor/assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="<%=request.getContextPath() %>/resources/Mentor/assets/js/main.js"></script>
-
+	<%@include file="../include/js.jsp" %>
 </body>
 
 </html>
