@@ -87,24 +87,34 @@
 
         <div class="row counters">
 
-          <div class="col-lg-3 col-6 text-center">
-          	<img src="<%=request.getContextPath() %>/resources/img/clock.jpeg" style="width: 100px; height: 100px; border-radius: 50%">
-            <p>예배시간</p>
+          <div class="col-lg-2 col-6 text-center">
+          	<img src="<%=request.getContextPath() %>/resources/img/church.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">교회소개</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
-                    	<img src="<%=request.getContextPath() %>/resources/img/alarm-clock.png" style="width: 100px; height: 100px;">
-            <p>Courses</p>
+          <div class="col-lg-2 col-6 text-center">
+            <img src="<%=request.getContextPath() %>/resources/img/alarm-clock.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">예배시간</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Events</p>
+          <div class="col-lg-2 col-6 text-center">
+          	<img src="<%=request.getContextPath() %>/resources/img/copy.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">주보안내</p>
+          </div>
+          
+          <div class="col-lg-2 col-6 text-center">
+          	<img src="<%=request.getContextPath() %>/resources/img/public-relation.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">공지사항</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Trainers</p>
+          <div class="col-lg-2 col-6 text-center">
+          	<img src="<%=request.getContextPath() %>/resources/img/film.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">설교영상</p>
+          </div>
+          
+          <div class="col-lg-2 col-6 text-center">
+          	<img src="<%=request.getContextPath() %>/resources/img/map.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">오시는길</p>
           </div>
 
         </div>
