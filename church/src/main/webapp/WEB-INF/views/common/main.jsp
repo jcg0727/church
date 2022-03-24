@@ -25,20 +25,14 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="/main" style="color: black; font-size: 30px; font-weight: bold;">행복드림교회</a></h1>
+      <h1 class="logo me-auto"><a href="/main" style="color: black; font-size: 40px; font-weight: bold;">행복드림교회</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="/">Home</a></li>
-<!--           <li><a href="about.html">About</a></li> -->
-<!--           <li><a href="courses.html">Courses</a></li> -->
-<!--           <li><a href="trainers.html">Trainers</a></li> -->
-<!--           <li><a href="events.html">Events</a></li> -->
-<!--           <li><a href="pricing.html">Pricing</a></li> -->
-
-          <li class="dropdown"><a href="#"><span>교회안내</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="active" href="main" style="font-size: 20px">Home</a></li>
+          <li class="dropdown"><a href="#"><span style="font-size: 20px">교회안내</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">교회소개</a></li>
               <li><a href="#">인사말</a></li>
@@ -46,7 +40,7 @@
               <li><a href="#">오시는길</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>교회소식</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span style="font-size: 20px">교회소식</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">예배안내</a></li>
               <li><a href="#">공지사항</a></li>
@@ -54,7 +48,7 @@
               <li><a href="#">자료실</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>예배와말씀</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span style="font-size: 20px"> 예배와말씀</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">주일 설교 영상</a></li>
               <li><a href="#">집회 행사</a></li>
@@ -73,7 +67,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>2022<br>말씀구절 or 교회표어</h1>
+      <h1>2022<br>말씀구절 말씀구절 말씀구절 말씀구절 말씀구절 말씀구절</h1>
 <!--       <h2>We are team of talented designers making websites with Bootstrap</h2> -->
 <!--       <a href="courses.html" class="btn-get-started">Get Started</a> -->
     </div>
@@ -88,33 +82,33 @@
         <div class="row counters">
 
           <div class="col-lg-2 col-6 text-center">
-          	<img src="<%=request.getContextPath() %>/resources/img/church.png" style="width: 80px; height: 80px;">
-            <p style="font-size: 20px;">교회소개</p>
+          	<a href="#"><img src="<%=request.getContextPath() %>/resources/img/church.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">교회소개</p></a> 
           </div>
 
           <div class="col-lg-2 col-6 text-center">
-            <img src="<%=request.getContextPath() %>/resources/img/alarm-clock.png" style="width: 80px; height: 80px;">
-            <p style="font-size: 20px;">예배시간</p>
+            <a href="#"><img src="<%=request.getContextPath() %>/resources/img/alarm-clock.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">예배시간</p></a>
           </div>
 
           <div class="col-lg-2 col-6 text-center">
-          	<img src="<%=request.getContextPath() %>/resources/img/copy.png" style="width: 80px; height: 80px;">
-            <p style="font-size: 20px;">주보안내</p>
+          	<a href="#"><img src="<%=request.getContextPath() %>/resources/img/copy.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">주보안내</p></a>
           </div>
           
           <div class="col-lg-2 col-6 text-center">
-          	<img src="<%=request.getContextPath() %>/resources/img/public-relation.png" style="width: 80px; height: 80px;">
-            <p style="font-size: 20px;">공지사항</p>
+          	<a href="#"><img src="<%=request.getContextPath() %>/resources/img/public-relation.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">공지사항</p></a>
           </div>
 
           <div class="col-lg-2 col-6 text-center">
-          	<img src="<%=request.getContextPath() %>/resources/img/film.png" style="width: 80px; height: 80px;">
-            <p style="font-size: 20px;">설교영상</p>
+          	<a href="#"><img src="<%=request.getContextPath() %>/resources/img/film.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">설교영상</p></a>
           </div>
           
           <div class="col-lg-2 col-6 text-center">
-          	<img src="<%=request.getContextPath() %>/resources/img/map.png" style="width: 80px; height: 80px;">
-            <p style="font-size: 20px;">오시는길</p>
+          	<a href="#"><img src="<%=request.getContextPath() %>/resources/img/map.png" style="width: 80px; height: 80px;">
+            <p style="font-size: 20px;">오시는길</p></a>
           </div>
 
         </div>
@@ -125,29 +119,18 @@
 	
 	
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about" style="background-color: lightgray;">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="<%=request.getContextPath() %>/resources/Mentor/assets/img/about.jpg" class="img-fluid" alt="">
+          <div class="col-lg-9 pt-4 pt-lg-0 order-2 order-lg-1 content">
+			<iframe width="900" height="500" src="https://www.youtube.com/embed/yaHBU73cXuQ?list=PLmWly2wfa4ePDX1BVF18RWBr_FCOn6nJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            </p>
-
+          
+          <div class="col-lg-3 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" style="color: black; font-size: 30px;">
+			설교영상.설교영상.설교영상.설교영상.설교영상.설교영상.설교영상.<br/>설교영상.설교영상.설교영상.설교영상.설교영상.<br/>설교영상.설교영상.
           </div>
+          
         </div>
 
       </div>
