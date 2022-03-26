@@ -140,31 +140,18 @@
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
-
+			<p style="text-align: center; font-size: 30px;">행복드림 갤러리</p> <hr style="border: solid 3px #66bb6a; "/>
         <div class="row">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Why Choose Mentor?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
-              <div class="text-center">
-                <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+					<img src="<%=request.getContextPath() %>/resources/img/map.png" style="width: 80px; height: 80px;">
                   </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
+                
+                <div class="col-xl-4 d-flex align-items-stre tch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-cube-alt"></i>
                     <h4>Ullamco laboris ladore pan</h4>
