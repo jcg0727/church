@@ -55,6 +55,7 @@
               <li><a href="#">실시간 예배</a></li>
             </ul>
           </li>
+          <li><a class="active" style="font-size: 20px"onclick="OpenWindow('<%=request.getContextPath() %>/login','로그인','500', '500')">로그인</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -67,7 +68,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>2022<br>말씀구절 말씀구절 말씀구절 말씀구절 말씀구절 말씀구절</h1>
+      <h1 style="font-style: italic;">우리도 <br/> 그의 치욕을 짊어지고<br/> 영문 밖으로 그에게 나아가자</h1> <br/><h3 style="color:white">히브리서 13:13</h3>
 <!--       <h2>We are team of talented designers making websites with Bootstrap</h2> -->
 <!--       <a href="courses.html" class="btn-get-started">Get Started</a> -->
     </div>
@@ -147,24 +148,20 @@
               <div class="row">
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
-					<img src="<%=request.getContextPath() %>/resources/img/map.png" style="width: 80px; height: 80px;">
-                  </div>
-                </div>
-                
-                <div class="col-xl-4 d-flex align-items-stre tch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+					<img src="<%=request.getContextPath() %>/resources/img/jung.jpeg" style="width: 100%; height: 100%;">
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+					<img src="<%=request.getContextPath() %>/resources/img/jung.jpeg" style="width: 100%; height: 100%;">
                   </div>
                 </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+					<img src="<%=request.getContextPath() %>/resources/img/jung.jpeg" style="width: 100%; height: 100%;">
+                  </div>
+                </div>
+
               </div>
             </div><!-- End .content-->
           </div>

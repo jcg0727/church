@@ -16,4 +16,10 @@ public class MainController {
 		return url;
 		
 	}
+	
+	@RequestMapping(value = "/login")
+	public String login() {
+		String url = "/common/login";
+		return url;
+	}
 }

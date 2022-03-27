@@ -11,3 +11,6 @@
 
   <!-- Template Main JS File -->
   <script src="<%=request.getContextPath() %>/resources/Mentor/assets/js/main.js"></script>
+  
+  
+  <script src="<%=request.getContextPath() %>/resources/js/common.js"></script>
