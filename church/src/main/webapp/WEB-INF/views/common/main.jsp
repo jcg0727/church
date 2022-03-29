@@ -67,8 +67,8 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
-    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1 style="font-style: italic;">우리도 <br/> 그의 치욕을 짊어지고<br/> 영문 밖으로 그에게 나아가자</h1> <br/><h3 style="color:white">히브리서 13:13</h3>
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100" style="text-align: center;">
+      <h1>"회복을 뛰어넘어 거룩한 부흥으로!"</h1><br/><h3 style="font-style: italic;color: white;">여호와여 주는 주의 일을 이 수년 내에 부흥하게 하옵소서 이 수년 내에 나타내시옵소서 <br/>하박국 3:2</h3>
 <!--       <h2>We are team of talented designers making websites with Bootstrap</h2> -->
 <!--       <a href="courses.html" class="btn-get-started">Get Started</a> -->
     </div>
@@ -422,18 +422,17 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-contact">
+          <div class="col-lg-5 col-md-6 footer-contact">
             <h3>교회위치</h3>
+            <hr style="border: solid 3px #66bb6a; "/>
             <p>
-              34973 <br>
-              대전광역시 중구 계백로 1592 B1<br><br>
-              <strong>Fax:</strong> 000-0000-0000<br>
-              <strong>Tel:</strong> 000-0000-0000<br>
+              유천성전 34973 대전광역시 중구 계백로 1592 <strong>Tel:</strong> 010-7930-0853<br><br>
+              옥계성전 35039 대전광역시 중구 대전천서로 59 <strong>Tel:</strong> 010-7930-0853<br>
             </p>
           </div>
 
-          <div class="col-lg-8 col-md-6 footer-links">
-	          <div id="map" style="width: 850px; height: 250px;"> </div>
+          <div class="col-lg-7 col-md-6 footer-links">
+	          <div id="map" style="width: 750px; height: 250px;"> </div>
          </div>
 
         </div>
