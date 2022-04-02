@@ -17,6 +17,8 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -425,14 +427,26 @@
           <div class="col-lg-5 col-md-6 footer-contact">
             <h3>교회위치</h3>
             <hr style="border: solid 3px #66bb6a; "/>
-            <p>
-              유천성전 34973 대전광역시 중구 계백로 1592 <strong>Tel:</strong> 010-7930-0853<br><br>
-              옥계성전 35039 대전광역시 중구 대전천서로 59 <strong>Tel:</strong> 010-7930-0853<br>
-            </p>
+            <table>
+            	<tr>
+            		<td>유천성전</td>
+            		<td>34973</td>
+            		<td>대전광역시 중구 계백로 1592 </td>
+            		<td>Tel: 010-7930-0853</td>
+            		<td><button type="button" class="btn-sm btn-block btn-secondary" onclick="locationYucheon();">지도보기</button></td>
+            	</tr>
+            	<tr>
+            		<td>옥계성전</td>
+            		<td>35039</td>
+            		<td>대전광역시 중구 대전천서로 59</td>
+            		<td>Tel: 010-7930-0853</td>
+            		<td><button type="button" class="btn-sm btn-block btn-secondary" onclick="locationOk();">지도보기</button></td>
+            	</tr>
+            </table>
           </div>
 
           <div class="col-lg-7 col-md-6 footer-links">
-	          <div id="map" style="width: 750px; height: 250px;"> </div>
+	          <div id="map" style="width: 740px; height: 250px;"> </div>
          </div>
 
         </div>
@@ -462,21 +476,57 @@
   
   <!-- kakao map -->
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bad625fa1db195394d841cb21b3a322d"></script>	
-  <script>
-  var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
-  var options = { //지도를 생성할 때 필요한 기본 옵션
-  	center: new kakao.maps.LatLng(36.317986, 127.397163), //지도의 중심좌표.
-  	level: 3 //지도의 레벨(확대, 축소 정도)
-  };
-  	var map = new kakao.maps.Map(container, options); 
-  	var marker = new kakao.maps.Marker({ 
-  	    // 지도 중심좌표에 마커를 생성합니다 
-  	    position: map.getCenter() 
-  	}); 
-  	// 지도에 마커를 표시합니다
-  	marker.setMap(map);
-
- 
+  <script>	
+  	$(document).ready(function(){
+  		locationYucheon();
+  	});
+  
+  
+ 	function locationYucheon(){
+ 		 if('#map' != null){
+ 			 $('#map').empty();
+ 		 }
+	  	var markers = [
+	  	    {
+	  	        position: new kakao.maps.LatLng(36.317986, 127.397163), 
+	  	        text: '행복드림교회 유천성전' // text 옵션을 설정하면 마커 위에 텍스트를 함께 표시할 수 있습니다     
+	  	    }
+	  	];
+	
+	  	var staticMapContainer  = document.getElementById('map'), // 이미지 지도를 표시할 div  
+	  	    staticMapOption = { 
+	  	        center: new kakao.maps.LatLng(36.317986, 127.397163), // 이미지 지도의 중심좌표
+	  	        level: 3, // 이미지 지도의 확대 레벨
+	  	        marker: markers // 이미지 지도에 표시할 마커 
+	  	    };    
+	
+	  	// 이미지 지도를 생성합니다
+	  	var staticMap = new kakao.maps.StaticMap(staticMapContainer, staticMapOption);
+ 		
+ 	}
+ 	
+ 	function locationOk(){
+	 if('#map' != null){
+		 $('#map').empty();
+	 }
+ 		var markers = [
+	  	    {
+	  	        position: new kakao.maps.LatLng(36.30179122387614,127.45376579012108), 
+	  	        text: '행복드림교회 옥계성전' // text 옵션을 설정하면 마커 위에 텍스트를 함께 표시할 수 있습니다     
+	  	    }
+	  	];
+	
+	  	var staticMapContainer  = document.getElementById('map'), // 이미지 지도를 표시할 div  
+	  	    staticMapOption = { 
+	  	        center: new kakao.maps.LatLng(36.30179122387614, 127.45376579012108), // 이미지 지도의 중심좌표
+	  	        level: 2, // 이미지 지도의 확대 레벨
+	  	        marker: markers // 이미지 지도에 표시할 마커 
+	  	    };    
+	
+	  	// 이미지 지도를 생성합니다
+	  	var staticMap = new kakao.maps.StaticMap(staticMapContainer, staticMapOption);
+ 		
+ 	}
   </script>
 	<%@include file="../include/js.jsp" %>
 </body>
