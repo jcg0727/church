@@ -127,11 +127,10 @@
 
         <div class="row">
           <div class="col-lg-9 pt-4 pt-lg-0 order-2 order-lg-1 content">
-			<iframe width="900" height="500" src="https://www.youtube.com/embed/yaHBU73cXuQ?list=PLmWly2wfa4ePDX1BVF18RWBr_FCOn6nJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="100%" height="500" src="https://www.youtube.com/embed/yaHBU73cXuQ?list=PLmWly2wfa4ePDX1BVF18RWBr_FCOn6nJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          
-          <div class="col-lg-3 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" style="color: black; font-size: 30px;">
-			설교영상.설교영상.설교영상.설교영상.설교영상.설교영상.설교영상.<br/>설교영상.설교영상.설교영상.설교영상.설교영상.<br/>설교영상.설교영상.
+          <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content">
+         	설교영상...............설교영상................설교영상.......
           </div>
           
         </div>
@@ -424,7 +423,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-5 col-md-6 footer-contact">
+          <div class="col-lg-6 col-md-6 footer-contact">
             <h3>교회위치</h3>
             <hr style="border: solid 3px #66bb6a; "/>
             <table>
@@ -445,8 +444,8 @@
             </table>
           </div>
 
-          <div class="col-lg-7 col-md-6 footer-links">
-	          <div id="map" style="width: 740px; height: 250px;"> </div>
+          <div class="col-lg-6 col-md-6 footer-links">
+	          <div id="map" style="width: 100%; height: 250px;"> </div>
          </div>
 
         </div>
@@ -519,7 +518,7 @@
 	  	var staticMapContainer  = document.getElementById('map'), // 이미지 지도를 표시할 div  
 	  	    staticMapOption = { 
 	  	        center: new kakao.maps.LatLng(36.30179122387614, 127.45376579012108), // 이미지 지도의 중심좌표
-	  	        level: 2, // 이미지 지도의 확대 레벨
+	  	        level:3, // 이미지 지도의 확대 레벨
 	  	        marker: markers // 이미지 지도에 표시할 마커 
 	  	    };    
 	

@@ -19,4 +19,10 @@
 
   <!-- Template Main CSS File -->
   <link href="<%=request.getContextPath() %>/resources/Mentor/assets/css/style.css" rel="stylesheet">
+  
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="<%=request.getContextPath() %>/resources/bootstrap/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<%=request.getContextPath() %>/resources/bootstrap/dist/css/adminlte.min.css">   
     
