@@ -130,7 +130,7 @@
 			<iframe width="100%" height="500" src="https://www.youtube.com/embed/yaHBU73cXuQ?list=PLmWly2wfa4ePDX1BVF18RWBr_FCOn6nJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content">
-         	설교영상...............설교영상................설교영상.......
+         	설교영상...............설교영상................설교영상
           </div>
           
         </div>
@@ -140,34 +140,41 @@
 
    
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
+    <section id="why-us" class="why-us" style="background-color: white;">
+      <div class="container" data-aos="fade-up" style="height: 600px">
 			<p style="text-align: center; font-size: 30px;">행복드림 갤러리</p> <hr style="border: solid 3px #66bb6a; "/>
-        <div class="row">
-          <div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-					<img src="<%=request.getContextPath() %>/resources/img/jung.jpeg" style="width: 100%; height: 100%;">
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-					<img src="<%=request.getContextPath() %>/resources/img/jung.jpeg" style="width: 100%; height: 100%;">
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-					<img src="<%=request.getContextPath() %>/resources/img/jung.jpeg" style="width: 100%; height: 100%;">
-                  </div>
-                </div>
-
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 500px;">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
+			      <div class="item active">
+			        <img src="<%=request.getContextPath() %>/resources/img/church.png" alt="" style="height:500px; width:100%;">
+			      </div>
+			
+			      <div class="item">
+			        <img src="<%=request.getContextPath() %>/resources/img/clock.jpeg" alt="" style="height:500px; width:100%;">
+			      </div>
+			    
+			      <div class="item">
+			        <img src="<%=request.getContextPath() %>/resources/img/map.png" alt="" style="height:500px; width:100%;">
+			      </div>
+			    </div>
+			
+			    <!-- Left and right controls -->
+			    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
       </div>
     </section><!-- End Why Us Section -->
 
@@ -445,7 +452,7 @@
           </div>
 
           <div class="col-lg-6 col-md-6 footer-links">
-	          <div id="map" style="width: 100%; height: 250px;"> </div>
+	          <div id="map" style="width: 560px; height: 250px;"> </div>
          </div>
 
         </div>
