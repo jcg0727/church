@@ -22,4 +22,10 @@ public class MainController {
 		String url = "/common/login";
 		return url;
 	}
+	
+	@RequestMapping(value = "/test")
+	public String test() {
+		String url = "/common/test";
+		return url;
+	}
 }
